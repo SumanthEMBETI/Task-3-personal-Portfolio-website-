@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sumanth Embeti - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #333f43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      padding: 50px 20px 20px;
+      text-align: center;
+      background-color: rgba(55, 56, 49, 0.7);
+    }
+
+    header img {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 4px; /* optional: keeps slightly rounded edges */
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+    h1 {
+      margin: 10px 0 5px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: #61dafb;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+      transform: scale(1.1);
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      margin-bottom: 40px;
+      backdrop-filter: blur(10px);
+    }
+
+    h2 {
+      display: inline-block;
+      background: #61dafb;
+      color: #000;
+      padding: 10px 25px;
+      border-radius: 25px;
+      margin-bottom: 25px;
+      font-size: 24px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .btn {
+      background: #61dafb;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background: #21a1f1;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .highlight {
+      color: #61dafb;
+    }
+
+    a {
+      color: #61dafb;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="pass.jpg" alt="Sumanth Embeti" id="profile-img" />
+    <h1 id="name">Sumanth Embeti</h1>
+    <p id="title">Frontend Developer | Python GUI Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <br>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am <strong>Sumanth Embeti</strong>, a driven and detail-oriented Computer Science undergraduate at <strong>Madanapalle Institute of Technology and Science (MITS)</strong>, Andhra Pradesh. Passionate about frontend development and user experience design, I create interactive and responsive interfaces that combine aesthetics with functionality. <br><br>
+      With hands-on experience in <strong>Python GUI using Tkinter</strong> and solid foundational knowledge in <strong>Java, SQL, and Web Development</strong>, I strive to build efficient and visually appealing applications. <br><br>
+      I take pride in my leadership, decision-making, and problem-solving abilities, developed through academic and extracurricular activities. My enthusiasm for learning new technologies keeps me engaged in self-learning and contributing to real-time projects. <br><br>
+      Outside of coding, I enjoy reading, dancing, and gaming, which help me maintain a balanced lifestyle and a creative mindset.
+    </p>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Technical Skills</h2>
+    <p><span class="highlight">Languages:</span> Python, Java (OOP)</p>
+    <p><span class="highlight">Database:</span> SQL</p>
+    <p><span class="highlight">Frameworks:</span> Tkinter (GUI)</p>
+    <p><span class="highlight">Other Interests:</span> Frontend Development, UX/UI</p>
+  </section>
+
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <p><strong>B.Tech - Computer Science Engineering</strong><br>
+    MITS, Andhra Pradesh | 2022–2026 | CGPA: 8.52</p>
+    <p><strong>Intermediate (BIEAP)</strong><br>
+    Viswasai Junior College, Nellore | 2020–2022 | 80.06%</p>
+    <p><strong>SSC</strong><br>
+    Sri Chaitanya Techno School, Nellore | 2019–2020 | 90.8%</p>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <p><strong>User Information Management System</strong><br>
+      Developed a Python Tkinter application to efficiently manage user data. Includes intuitive UI and CRUD operations.
+      The project focuses on creating an intuitive and efficient platform for storing, updating, and retrieving user data. The system mimics real-world database interaction, offering a clean GUI for managing entries like names, contact details, or any other structured information.
+    </p>
+    <p><strong>User Auto Messenger</strong><br>
+      A Python GUI tool that sends repeated messages with user-defined intervals and limits. Built for productivity testing and automation learning.
+      The User Auto Messenger Application is a desktop automation utility developed using Python's Tkinter library. This project empowers users to send pre-written messages repeatedly across any platform (such as WhatsApp Web, chat bots, or desktop applications), with custom control over how many times the message is sent and how frequently it's sent.
+      It is designed to simulate repeated user input with timing control, often useful for testing, automated messaging demos, or productivity simulations.
+    </p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sumanthembeti2003@gmail.com">sumanthembeti2003@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918977409255">+91 8977409255</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sumanth-embeti-361424252" target="_blank">View Profile</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sumanth Embeti. All rights reserved.
+  </footer>
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script>
+    gsap.from("#profile-img", { duration: 1, y: -60, opacity: 0 });
+    gsap.from("#name", { duration: 1, y: -30, opacity: 0, delay: 1 });
+    gsap.from("nav a", { duration: 1, y: -10, opacity: 0, stagger: 0.2, delay: 0.5 });
+    gsap.from(".container", { duration: 1, opacity: 0, y: 30, stagger: 0.4, delay: 2 });
+  </script>
+
+</body>
+</html>
